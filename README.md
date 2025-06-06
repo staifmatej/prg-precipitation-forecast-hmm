@@ -82,7 +82,3 @@ To run the tests, execute `pytest` directly in the main project directory (**roo
 ## Codestyle
 
 To check code style compliance, run `pylint . --disable=C0301,C0103` from the main project directory. This will analyze all Python files while ignoring line length (C0301) and naming convention (C0103) warnings.
-
-## Author
-
-Matej Staif, FIT CTU, staifmat@fit.cvut.cz
