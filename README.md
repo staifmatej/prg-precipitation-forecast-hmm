@@ -1,4 +1,4 @@
-![FYI](FYI.png)
+![FYI](FYI.png) <!-- Created in Figma with font: "Fuzzy Bubbles", size of the text: "30" and box sizes: "w: 991px & h: 199px"
 
 # Prague Precipitation Forecasting using Hidden Markov Models
 
