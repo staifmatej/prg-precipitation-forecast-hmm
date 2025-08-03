@@ -1,3 +1,5 @@
+![FYI](FYI.png)
+
 # Prague Precipitation Forecasting using Hidden Markov Models
 
 
