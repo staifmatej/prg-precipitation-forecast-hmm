@@ -70,7 +70,7 @@ In `auto` mode, the most optimal hyperparameters found through Bayesian Optimiza
 
 - Navigate to the project directory
 
-    - `cd prg-precipitation-forecast-hmm`
+    - `cd prg-precipitation-forecast-hmm/prg-precipitation-forecast-hmm`
 
 - Create virtual environment and install dependencies:
 
