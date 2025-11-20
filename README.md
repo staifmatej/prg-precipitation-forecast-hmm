@@ -105,7 +105,7 @@ In my Python code, I marked the parts where I worked together with LLM models li
 # @generated "[MEASURE]" TOOL-WITH-VERSION: [ANOTHER-COMMENT-MAY-BE-TRIMMED-PROMPT]
 ```
 
-MEASURE has one of these values: `all | partially`.
+`MEASURE` has one of these values: `all | partially`.
 
 ### Examples of annotations:
 ```python
