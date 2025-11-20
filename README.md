@@ -10,6 +10,7 @@ This project implements three Hidden Markov Model variants for **daily precipita
 
 For a more detailed description of the methodology, results, and analysis, please refer to the [staifmatej-report.pdf](staifmatej-report.pdf) file included in this repository.
 
+my disclosure of using an LLM in this project [here](#llm-large-language-models-usage-declaration)
 
 ## Usage
 
@@ -85,3 +86,23 @@ To run the tests, execute `pytest` directly in the main project directory (**roo
 ## Codestyle
 
 To check code style compliance, run `pylint . --disable=C0301,C0103` from the main project directory. This will analyze all Python files while ignoring line length (C0301) and naming convention (C0103) warnings.
+
+## LLM (Large Language Models) Usage Declaration
+
+I completed this project without using LLM tools, except for English grammar help. Since English is not my native language and I want to improve it further, and I want to use international language at a professional level in my projects too, I consulted with LLM models for grammar corrections, translations, and modifications. Specifically, I used OpenAI's `Chat-GPT 03-high` model.
+
+* I wrote **staifmatej-report.pdf 100% in my own words**, but then I translated it to English using LLM with grammar corrections.
+
+* I did the same thing with docstrings and comments in the code, which **I always wrote myself**, but sometimes when I was not sure about my 100% grammatical accuracy, I translated them using LLM model.
+
+* I wrote `class HMMEvaluator` first by myself in one function, but because this was a school project for the Programming in Python course at CTU FIT and I had to follow strict PEP8 score requirements, the function could not be this long and have so many arguments according to PEP8. That is why LLM `claude sonnet 3.5` rewrote the whole function into a class - I checked the code afterwards.
+
+* The constant `VALIDATION_CRITERIA` was suggested to me by LLM model `claude sonnet 3.5` as a solution for the already mentioned modified code to meet PEP8 score requirements.
+
+
+In my Python code, I marked the parts where I worked together with LLM models like this:
+```text
+# @generated "[MEASURE]" TOOL-WITH-VERSION: [ANOTHER-COMMENT-MAY-BE-TRIMMED-PROMPT]
+```
+
+MEASURE has one of these values: `all | partially`.
