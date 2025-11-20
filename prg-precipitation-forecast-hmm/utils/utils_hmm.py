@@ -18,6 +18,7 @@ DEFAULT_HMM_CONFIG = {
 # Default features for continuous models
 DEFAULT_CONTINUOUS_FEATURES = ['Avg. Temperature', 'Air Pressure', 'Total Precipitation']
 
+# @generated “[partially]” claude-sonnet-3.5: [Modification for better PEP8 score, Originally written in one function by human (matejstaif) and LLM model rewrote it into a class to satisfy PEP8 styl guide]
 class BaseHMM(ABC):
     """
     Abstract base class for Hidden Markov Models used in precipitation forecasting.
