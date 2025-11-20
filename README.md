@@ -10,7 +10,7 @@ This project implements three Hidden Markov Model variants for **daily precipita
 
 For a more detailed description of the methodology, results, and analysis, please refer to the [staifmatej-report.pdf](staifmatej-report.pdf) file included in this repository.
 
-my disclosure of using an LLM in this project [here](#llm-large-language-models-usage-declaration)
+**My disclosure of using an LLM in this project** [here](#llm-large-language-models-usage-declaration)
 
 ## Usage
 
