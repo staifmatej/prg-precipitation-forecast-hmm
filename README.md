@@ -89,13 +89,13 @@ To check code style compliance, run `pylint . --disable=C0301,C0103` from the ma
 
 ## LLM (Large Language Models) Usage Declaration
 
-I completed this project without using LLM tools, except for English grammar help. Since English is not my native language and I want to improve it further, and I want to use international language at a professional level in my projects too, I consulted with LLM models for grammar corrections, translations, and modifications. Specifically, I used OpenAI's `Chat-GPT 03-high` model.
+I completed the main work on this project myself, but I used LLM tools for specific purposes. Since English is not my native language and I want to improve it further, and I want to use international language at a professional level in my projects too, I consulted with LLM models for grammar corrections, translations, and modifications. Specifically for English, I used OpenAI's `Chat-GPT 03-high` model.
 
 * I wrote **staifmatej-report.pdf 100% in my own words**, but then I translated it to English using LLM with grammar corrections.
 
 * I did the same thing with docstrings and comments in the code, which **I always wrote myself**, but sometimes when I was not sure about my 100% grammatical accuracy, I translated them using LLM model.
 
-* I wrote `class HMMEvaluator` first by myself in one function, but because this was a school project for the Programming in Python course at CTU FIT and I had to follow strict PEP8 score requirements, the function could not be this long and have so many arguments according to PEP8. That is why LLM `claude sonnet 3.5` rewrote the whole function into a class - I checked the code afterwards.
+* I wrote `class HMMEvaluator` first by myself in one function, but because this was a school project for the *Programming in Python course* at *CTU FIT* and I had to follow strict *PEP8* score requirements, the function could not be this long and have so many arguments according to *PEP8*. That is why LLM `claude sonnet 3.5` rewrote the whole function into a class - I checked the code afterwards.
 
 * The constant `VALIDATION_CRITERIA` was suggested to me by LLM model `claude sonnet 3.5` as a solution for the already mentioned modified code to meet PEP8 score requirements.
 
@@ -106,3 +106,19 @@ In my Python code, I marked the parts where I worked together with LLM models li
 ```
 
 MEASURE has one of these values: `all | partially`.
+
+### Examples of annotations:
+```python
+# @generated "[all]" [GitHub Copilot o1]
+def foo(bar):
+  pass
+
+# @generated "[partially]" [Gemini 2.0] [jen konstruktor, zbytek psal clovek]
+class Foo:
+  def __init__(self):
+    pass
+  def abc(self):
+    pass
+  def def(self):
+    pass
+```
