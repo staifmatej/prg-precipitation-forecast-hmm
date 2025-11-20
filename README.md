@@ -3,14 +3,13 @@
 
 # Prague Precipitation Forecasting using Hidden Markov Models
 
+***My disclosure of using an LLM in this project*** [here](#llm-large-language-models-usage-declaration)
 
 ## Abstract
 
 This project implements three Hidden Markov Model variants for **daily precipitation prediction in Prague** using 25 years of meteorological data (2000-2024) from Prague-Ruzyně station. The models include **Discrete HMM**, **Gaussian Mixture HMM**, and **Variational Gaussian HMM**, all trained to predict whether precipitation will occur the next day based on historical weather patterns. Using **Bayesian optimization** for hyperparameter tuning and backtesting with a **sliding window approach**, the **best performing model GMM HMM achieved 64.91% accuracy**, outperforming the naive baseline of 61.27%. The implementation leverages the hmmlearn library and demonstrates how HMMs can capture hidden weather states for precipitation forecasting despite **highly stochastic weather patterns**.
 
 For a more detailed description of the methodology, results, and analysis, please refer to the [staifmatej-report.pdf](staifmatej-report.pdf) file included in this repository.
-
-***My disclosure of using an LLM in this project*** [here](#llm-large-language-models-usage-declaration)
 
 ## Usage
 
