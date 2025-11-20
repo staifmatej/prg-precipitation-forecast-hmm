@@ -6,6 +6,7 @@ from utils.utils import Optimization
 S_BOLD = '\033[1m'
 E_BOLD = '\033[0m'
 
+# @generated “[all]” claude-sonnet-3.5: [Modification for better PEP8 score]
 # Common feature sets for models
 DEFAULT_FEATURES = [
     'Air Pressure',
