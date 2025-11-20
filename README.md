@@ -92,7 +92,9 @@ I completed the main work on this project myself, but I used LLM tools for speci
 
 * I **wrote** `staifmatej-report.pdf` **100% in my own words**, but then I modified it to English using LLM with grammar corrections.
 
-* I did the same thing with docstrings and comments in the code, which **I always wrote myself**, but sometimes when I was not sure about my 100% grammatical accuracy, I translated them using LLM model.
+* I did the same thing with **docstrings** and **comments** in the code, which **I always wrote myself**, but sometimes when I was not sure about my 100% grammatical accuracy, I translated them using LLM model.
+
+* I did the same thing with `README.md` in the repository, which I wrote myself, but afterwards I modified it using an LLM (model `Chat-GPT 03-high`).
 
 * I wrote `class HMMEvaluator` first by myself in one function, but because this was a school project for the *Programming in Python course* at *CTU FIT* and I had to follow strict *PEP8* score requirements, the function could not be this long and have so many arguments according to *PEP8*. That is why LLM `claude sonnet 3.5` rewrote the whole function into a class - I checked the code afterwards.
 
