@@ -13,6 +13,7 @@ DEFAULT_FEATURES = [
     'Snow Depth',
 ]
 
+# @generated “[all]” claude-sonnet-3.5: [Modification for better PEP8 score]
 # Common validation criteria
 VALIDATION_CRITERIA = [
     lambda opt_by: opt_by in ("f1", "acc"),
