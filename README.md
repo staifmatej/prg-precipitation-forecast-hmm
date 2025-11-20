@@ -91,7 +91,7 @@ To check code style compliance, run `pylint . --disable=C0301,C0103` from the ma
 
 I completed the main work on this project myself, but I used LLM tools for specific purposes. Since English is not my native language and I want to improve it further, and I want to use international language at a professional level in my projects too, I consulted with LLM models for grammar corrections, translations, and modifications. Specifically for English, I used OpenAI's `Chat-GPT 03-high` model.
 
-* I **wrote** `staifmatej-report.pdf` **100% in my own words**, but then I translated it to English using LLM with grammar corrections.
+* I **wrote** `staifmatej-report.pdf` **100% in my own words**, but then I modified it to English using LLM with grammar corrections.
 
 * I did the same thing with docstrings and comments in the code, which **I always wrote myself**, but sometimes when I was not sure about my 100% grammatical accuracy, I translated them using LLM model.
 
