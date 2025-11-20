@@ -3,7 +3,7 @@
 
 # Prague Precipitation Forecasting using Hidden Markov Models
 
-***My disclosure of using an LLM in this project*** [here](#llm-large-language-models-usage-declaration)
+***My disclosure of using an LLM in this project*** [here](#llm-large-language-models-usage-declaration).
 
 ## Abstract
 
