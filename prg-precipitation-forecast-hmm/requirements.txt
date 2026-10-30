@@ -22,4 +22,4 @@ seaborn==0.13.2
 
 # Testing and code quality
 pylint==3.3.6
-pytest==8.3.4
+pytest==9.0.3
